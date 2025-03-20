@@ -1,6 +1,5 @@
 from random_word import RandomWords
 import random
-import requests
 
 # 19 long password: ***-***-***-***-***
 
