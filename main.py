@@ -6,15 +6,7 @@ import requests
 
 randWord = RandomWords()
 
-url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + randWord.get_random_word()
-
-response = requests.get(url)
-
-data = response.json()
-
-word = data[0]["word"]
-
-print(word)
+print(randWord.get_random_word())
 
 # print(random.random() * 10)
 
